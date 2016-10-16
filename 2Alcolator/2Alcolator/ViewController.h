@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UISlider *beerCountSlider;
 
 - (void)buttonPressed:(UIButton *)sender;
+- (IBAction)sliderValueDidChange:(UISlider *)sender;
+
 
 
 @end
